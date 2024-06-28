@@ -1,3 +1,6 @@
+![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/85fef500-a840-4860-a60e-026057ffdc09)
+
+
 
 Output name: best_model
 Model: azureml_plucky_piano_82nmhrx55x_3_output_mlflow_log_model_317942130:1
