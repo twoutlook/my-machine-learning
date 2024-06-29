@@ -1,3 +1,6 @@
+![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/8684e073-8813-4a7f-8238-e5555e5dc4b1)
+
+
 ![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/2afedb97-59f0-4b4d-ae89-4f7d5d0857b2)
 
 
