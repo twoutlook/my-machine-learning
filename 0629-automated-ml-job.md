@@ -6,7 +6,7 @@
 
 <hr>
 
-# to set limit
+# Setting Limits for Efficient and Cost-Effective Automated ML Jobs
 ![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/7e12c2cd-867e-4706-b385-df317b98c28e)
 
 <hr>
