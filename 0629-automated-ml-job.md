@@ -24,6 +24,7 @@
 # refresh to see status is Running
 ![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/f0ad8c56-905f-41b0-adc5-bda58b33a4be)
 
-
 <hr>
-### expect to be 12-15 minutes
+
+### Experiment Timeout Reached: Focusing on Best Model Output
+<img width="1524" alt="image" src="https://github.com/twoutlook/my-machine-learning/assets/16488072/4da0408a-1cd2-4ab5-b948-b4db41d05b9b">
