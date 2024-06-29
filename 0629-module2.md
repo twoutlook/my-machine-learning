@@ -1,4 +1,12 @@
 
+
+![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/8921f7d9-e972-49a4-96da-6f1811d1c67b)
+
+
+![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/ad966ffb-7216-4d23-97bb-0b176b8c66a3)
+
+
+
 ![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/10297c24-c51a-4c7b-9f44-b120a1aa8038)
 
 
