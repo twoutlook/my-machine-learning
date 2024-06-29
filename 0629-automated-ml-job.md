@@ -4,8 +4,9 @@
 ### to block
 ![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/9ecdf739-f56e-476d-aa58-d8ab6144e1ae)
 
-### 111
+### to set limit
 ![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/7e12c2cd-867e-4706-b385-df317b98c28e)
+
 ### 222
 ![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/a67bb86f-e2d7-4551-bd00-4c161b128735)
 
