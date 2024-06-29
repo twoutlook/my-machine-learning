@@ -21,7 +21,8 @@
 
 <hr>
 # refresh to see status is Running
-![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/52c5d817-d46a-4a53-a9f2-449d34125458)
+![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/f0ad8c56-905f-41b0-adc5-bda58b33a4be)
+
 
 <hr>
 ### expect to be 12-15 minutes
