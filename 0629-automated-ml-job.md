@@ -45,7 +45,7 @@
 
 <hr>
 
-### Shows Swagger URI and REST endpoint 
+### Successful Deployment of Predict-Rentals Model Endpoint: Access via Swagger URI and REST Endpoint
 
 ![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/7b2732a0-ff7d-4980-9f63-b36f58bcd8e0)
 
