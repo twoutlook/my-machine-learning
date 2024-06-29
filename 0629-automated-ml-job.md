@@ -28,3 +28,9 @@
 
 ### Experiment Timeout Reached: Focusing on Best Model Output
 <img width="1524" alt="image" src="https://github.com/twoutlook/my-machine-learning/assets/16488072/4da0408a-1cd2-4ab5-b948-b4db41d05b9b">
+
+<hr>
+
+### Deply After Register
+
+![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/c773315c-f773-42e2-879f-e9613120e77e)
