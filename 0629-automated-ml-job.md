@@ -34,3 +34,18 @@
 ### Deply After Register
 
 ![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/c773315c-f773-42e2-879f-e9613120e77e)
+
+
+<hr>
+
+### Deply After Register
+
+
+![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/efdf5056-ca40-4938-b678-8df02e143796)
+
+<hr>
+
+### Shows Swagger URI and REST endpoint 
+
+![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/7b2732a0-ff7d-4980-9f63-b36f58bcd8e0)
+
