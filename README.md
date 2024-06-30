@@ -3,6 +3,8 @@
 # 0630 Module4
 - https://microsoftlearning.github.io/AI-900-AIFundamentals/instructions/02c-create-clustering-model.html
 
+## penguins.csv
+- https://raw.githubusercontent.com/MicrosoftDocs/ml-basics/master/data/penguins.csv
 
 
 # Coursera
