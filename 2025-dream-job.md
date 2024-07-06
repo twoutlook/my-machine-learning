@@ -1,3 +1,11 @@
+# LLM 07/07
+- use NVIDIA training data as source
+- nature language in small footprint to solve Zebra puzzle, together with calling SQL to get result
+- to solve Taiwanese
+ -  小眾開發人員
+ -  有現成的資源: 母系親戚, 演講會
+
+
 https://www.nvidia.com/en-us/on-demand/session/llmdevday23-01/
 
 ![image](https://github.com/twoutlook/my-machine-learning/assets/16488072/87f01368-4342-43cd-bf75-03cbcc83b849)
