@@ -1,4 +1,6 @@
 # C:\Users\USER\AppData\Local\Programs\Python\Python38\python.exe -m venv venv
+## venv\Scripts\activate
+- v(tab)\sc(tab)\act(tab)
 ![image](https://github.com/user-attachments/assets/c14c8113-7325-48cf-ab77-0fda4dc76ebb)
 
 
