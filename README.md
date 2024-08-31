@@ -1,5 +1,5 @@
-# 
-- file:///C:/Users/USER/AppData/Local/Programs/Python/Python39/python.exe -m venv venv
+# C:\Users\USER\AppData\Local\Programs\Python\Python39\python.exe -m venv venv
+
 
 # C:\Users\USER\AppData\Local\Programs\Python\Python38\python.exe -m venv venv
 ## venv\Scripts\activate
