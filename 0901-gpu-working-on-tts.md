@@ -1,3 +1,5 @@
+2024-09-01 成功在 Ubuntu 使用 
 
+- https://chatgpt.com/share/4c3a6b52-5a98-466b-afea-6537f28fd18a
 
 <img width="1406" alt="image" src="https://github.com/user-attachments/assets/97b37313-6579-4e44-8503-52d5d2196d3f">
