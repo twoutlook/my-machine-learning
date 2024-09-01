@@ -1,4 +1,5 @@
-# 2024-09-01 成功在 Ubuntu 20.04.6 LTS 安裝 CUDA, 並使用 Docker images GPU version docker pull ghcr.io/coqui-ai/tts
+# 2024-09-01 成功在 Ubuntu 20.04.6 LTS 安裝 CUDA, 並使用 Docker images GPU version 
+- docker pull ghcr.io/coqui-ai/tts
 - 之前沒有在 Linux 裝過 CUDA driver
 - 之前沒有在 Linux 運行過 Docker
 ## 今天最大的突破 
