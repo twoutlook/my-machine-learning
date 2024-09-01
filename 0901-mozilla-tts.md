@@ -1,4 +1,4 @@
-## 09/01 在筆電, Win11, Python 3.9, 沒有 NVidia GPU, 調試 Mozilla TTS, 分別講英文和中文.
+## 09/01 在筆電, Win11, Python 3.9, 沒有 Nvidia GPU, 調試 Mozilla TTS, 分別講英文和中文.
 
 - Do you know what gets really scared in the fridge? It's the tomatoes! Because they see ketchup in there and are afraid they might end up the same way!
 - 你知道什麼東西在冰箱裡很害怕嗎？是番茄！因為它們看到冰箱裡有番茄醬，怕自己也會變成那樣！
