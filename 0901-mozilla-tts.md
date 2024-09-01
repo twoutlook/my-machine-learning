@@ -4,8 +4,7 @@
 - Processor	Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, 2592 Mhz, 6 Core(s), 12 Logical Processor(s)
 - Installed Physical Memory (RAM)	16.0 GB
 
-
-
+### 九歲小朋友會喜歡的
 - Do you know what gets really scared in the fridge? It's the tomatoes! Because they see ketchup in there and are afraid they might end up the same way!
 - 你知道什麼東西在冰箱裡很害怕嗎？是番茄！因為它們看到冰箱裡有番茄醬，怕自己也會變成那樣！
 
