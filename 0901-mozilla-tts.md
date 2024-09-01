@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/10001278-d8a2-4ae9-a4e2-7f52896712ca)
+
+
+
 ## 09/01 筆電, Win11, Python 3.9, 沒有 Nvidia GPU, 調試 Mozilla TTS, 沒有額外訓練, 沒有參數, 直接用 Model 預設音色, 分別講英文和中文。
 - OS Name	Microsoft Windows 11 家用版
 - Version	10.0.22631 Build 22631
