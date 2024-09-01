@@ -2,8 +2,10 @@
 - 之前沒有在 Linux 裝過 CUDA driver
 - 之前沒有在 Linux 運行過 Docker
 ## 今天最大的突破 
+### Win11 Python3.9
 - 在幾年前的筆記型電腦, 在 Win11 Python3.9, 成功安裝好 Mozilla TTS, 除了慢, 沒有什麼異常 
-- 以一樣的方式居然在兩台相對比較新的桌機是裝起來, 但部分 model 不知原因就是用不起來.
+- 以一樣的方式, Win11 Python3.9, 居然在兩台相對比較新的桌機是裝起來, 但大部分 model 不知原因就是用不起來.
+### Win11 WSL2 (Ubuntu 20.04.6) Python3.9  
 - 在沒有 GPU 的桌機以 Ubuntu 20.04 加裝 Python 3.9, 裝起來相對好些
 - 在有 GPU 的桌機成功運行 TTS 的 CPU 及 GPU 的兩組 Docker
   - 同樣的功能, 對照組一比較, CPU 組就像電瓶車, GPU 組就像 F1 賽車
