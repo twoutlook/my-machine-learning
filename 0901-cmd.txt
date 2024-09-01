@@ -1,0 +1,691 @@
+C:\>d:
+
+D:\>mkdir mozilla-tts
+
+D:\>cd mozilla-tts
+
+D:\mozilla-tts>python3 -m venv venv
+
+D:\mozilla-tts>venv\Scripts\activate
+
+(venv) D:\mozilla-tts>code .
+
+(venv) D:\mozilla-tts>pip install tts
+Collecting tts
+  Downloading TTS-0.22.0.tar.gz (1.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 125.5 kB/s eta 0:00:00
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting nltk
+  Downloading nltk-3.9.1-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 1.8 MB/s eta 0:00:00
+Collecting coqpit>=0.0.16
+  Downloading coqpit-0.0.17-py3-none-any.whl (13 kB)
+Collecting hangul-romanize
+  Downloading hangul_romanize-0.1.0-py3-none-any.whl (4.6 kB)
+Collecting matplotlib>=3.7.0
+  Downloading matplotlib-3.9.2-cp39-cp39-win_amd64.whl (7.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.8/7.8 MB 2.2 MB/s eta 0:00:00
+Collecting torch>=2.1
+  Downloading torch-2.4.0-cp39-cp39-win_amd64.whl (198.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 198.0/198.0 MB 3.2 MB/s eta 0:00:00
+Collecting packaging>=23.1
+  Using cached packaging-24.1-py3-none-any.whl (53 kB)
+Collecting aiohttp>=3.8.1
+  Downloading aiohttp-3.10.5-cp39-cp39-win_amd64.whl (379 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 379.8/379.8 KB 3.9 MB/s eta 0:00:00
+Collecting cython>=0.29.30
+  Downloading Cython-3.0.11-cp39-cp39-win_amd64.whl (2.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.8/2.8 MB 3.9 MB/s eta 0:00:00
+Collecting soundfile>=0.12.0
+  Downloading soundfile-0.12.1-py2.py3-none-win_amd64.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 3.6 MB/s eta 0:00:00
+Collecting transformers>=4.33.0
+  Downloading transformers-4.44.2-py3-none-any.whl (9.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.5/9.5 MB 3.9 MB/s eta 0:00:00
+Collecting spacy[ja]>=3
+  Downloading spacy-3.7.6-cp39-cp39-win_amd64.whl (12.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.2/12.2 MB 3.4 MB/s eta 0:00:00
+Collecting tqdm>=4.64.1
+  Downloading tqdm-4.66.5-py3-none-any.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.4/78.4 KB 4.5 MB/s eta 0:00:00
+Collecting unidecode>=1.3.2
+  Downloading Unidecode-1.3.8-py3-none-any.whl (235 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 235.5/235.5 KB 7.0 MB/s eta 0:00:00
+Collecting bnunicodenormalizer
+  Downloading bnunicodenormalizer-0.1.7-py3-none-any.whl (23 kB)
+Collecting einops>=0.6.0
+  Downloading einops-0.8.0-py3-none-any.whl (43 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.2/43.2 KB ? eta 0:00:00
+Collecting numba>=0.57.0
+  Downloading numba-0.60.0-cp39-cp39-win_amd64.whl (2.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.7/2.7 MB 4.8 MB/s eta 0:00:00
+Collecting gruut[de,es,fr]==2.2.3
+  Downloading gruut-2.2.3.tar.gz (73 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.5/73.5 KB 4.2 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting anyascii>=0.3.0
+  Downloading anyascii-0.3.2-py3-none-any.whl (289 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 289.9/289.9 KB 4.4 MB/s eta 0:00:00
+Collecting umap-learn>=0.5.1
+  Downloading umap_learn-0.5.6-py3-none-any.whl (85 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.7/85.7 KB 4.7 MB/s eta 0:00:00
+Collecting trainer>=0.0.32
+  Downloading trainer-0.0.36-py3-none-any.whl (51 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 51.2/51.2 KB 1.3 MB/s eta 0:00:00
+Collecting bnnumerizer
+  Downloading bnnumerizer-0.0.2.tar.gz (4.7 kB)
+  Preparing metadata (setup.py) ... done
+Collecting fsspec>=2023.6.0
+  Downloading fsspec-2024.6.1-py3-none-any.whl (177 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 177.6/177.6 KB 1.2 MB/s eta 0:00:00
+Collecting bangla
+  Downloading bangla-0.0.2-py2.py3-none-any.whl (6.2 kB)
+Collecting num2words
+  Downloading num2words-0.5.13-py3-none-any.whl (143 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 143.3/143.3 KB 2.1 MB/s eta 0:00:00
+Collecting torchaudio
+  Downloading torchaudio-2.4.0-cp39-cp39-win_amd64.whl (2.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.4/2.4 MB 1.7 MB/s eta 0:00:00
+Collecting inflect>=5.6.0
+  Downloading inflect-7.3.1-py3-none-any.whl (34 kB)
+Collecting encodec>=0.1.1
+  Downloading encodec-0.1.1.tar.gz (3.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 1.9 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting pypinyin
+  Downloading pypinyin-0.52.0-py2.py3-none-any.whl (833 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 833.7/833.7 KB 2.2 MB/s eta 0:00:00
+Collecting scikit-learn>=1.3.0
+  Downloading scikit_learn-1.5.1-cp39-cp39-win_amd64.whl (11.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.0/11.0 MB 2.5 MB/s eta 0:00:00
+Collecting pandas<2.0,>=1.4
+  Downloading pandas-1.5.3-cp39-cp39-win_amd64.whl (10.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.9/10.9 MB 3.1 MB/s eta 0:00:00
+Collecting g2pkk>=0.1.1
+  Downloading g2pkk-0.1.2-py3-none-any.whl (25 kB)
+Collecting flask>=2.0.1
+  Downloading flask-3.0.3-py3-none-any.whl (101 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 101.7/101.7 KB 3.0 MB/s eta 0:00:00
+Collecting pyyaml>=6.0
+  Downloading PyYAML-6.0.2-cp39-cp39-win_amd64.whl (162 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 162.3/162.3 KB 10.1 MB/s eta 0:00:00
+Collecting pysbd>=0.3.4
+  Downloading pysbd-0.3.4-py3-none-any.whl (71 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.1/71.1 KB 3.8 MB/s eta 0:00:00
+Collecting jamo
+  Downloading jamo-0.4.1-py3-none-any.whl (9.5 kB)
+Collecting numpy==1.22.0
+  Downloading numpy-1.22.0-cp39-cp39-win_amd64.whl (14.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.7/14.7 MB 3.3 MB/s eta 0:00:00
+Collecting librosa>=0.10.0
+  Downloading librosa-0.10.2.post1-py3-none-any.whl (260 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 260.1/260.1 KB 2.3 MB/s eta 0:00:00
+Collecting scipy>=1.11.2
+  Downloading scipy-1.13.1-cp39-cp39-win_amd64.whl (46.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.2/46.2 MB 1.4 MB/s eta 0:00:00
+Collecting jieba
+  Downloading jieba-0.42.1.tar.gz (19.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 19.2/19.2 MB 1.4 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting Babel<3.0.0,>=2.8.0
+  Downloading babel-2.16.0-py3-none-any.whl (9.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.6/9.6 MB 1.5 MB/s eta 0:00:00
+Collecting dateparser~=1.1.0
+  Downloading dateparser-1.1.8-py2.py3-none-any.whl (293 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 293.8/293.8 KB 1.1 MB/s eta 0:00:00
+Collecting gruut-ipa<1.0,>=0.12.0
+  Downloading gruut-ipa-0.13.0.tar.gz (101 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 101.6/101.6 KB 2.9 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting gruut_lang_en~=2.0.0
+  Downloading gruut_lang_en-2.0.1.tar.gz (15.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.3/15.3 MB 1.6 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting jsonlines~=1.2.0
+  Downloading jsonlines-1.2.0-py2.py3-none-any.whl (7.6 kB)
+Collecting networkx<3.0.0,>=2.5.0
+  Downloading networkx-2.8.8-py3-none-any.whl (2.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 1.8 MB/s eta 0:00:00
+Collecting python-crfsuite~=0.9.7
+  Downloading python_crfsuite-0.9.10-cp39-cp39-win_amd64.whl (155 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 155.5/155.5 KB 1.5 MB/s eta 0:00:00
+Collecting gruut_lang_de~=2.0.0
+  Downloading gruut_lang_de-2.0.1.tar.gz (18.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.1/18.1 MB 3.3 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting gruut_lang_fr~=2.0.0
+  Downloading gruut_lang_fr-2.0.2.tar.gz (10.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.9/10.9 MB 1.5 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting gruut_lang_es~=2.0.0
+  Downloading gruut_lang_es-2.0.1.tar.gz (31.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 31.4/31.4 MB 666.6 kB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting aiohappyeyeballs>=2.3.0
+  Downloading aiohappyeyeballs-2.4.0-py3-none-any.whl (12 kB)
+Collecting yarl<2.0,>=1.0
+  Downloading yarl-1.9.6-cp39-cp39-win_amd64.whl (79 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.4/79.4 KB 4.3 MB/s eta 0:00:00
+Collecting frozenlist>=1.1.1
+  Downloading frozenlist-1.4.1-cp39-cp39-win_amd64.whl (50 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.7/50.7 KB 2.7 MB/s eta 0:00:00
+Collecting async-timeout<5.0,>=4.0
+  Downloading async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+Collecting multidict<7.0,>=4.5
+  Downloading multidict-6.0.5-cp39-cp39-win_amd64.whl (28 kB)
+Collecting aiosignal>=1.1.2
+  Downloading aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+Collecting attrs>=17.3.0
+  Downloading attrs-24.2.0-py3-none-any.whl (63 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.0/63.0 KB 3.3 MB/s eta 0:00:00
+Collecting Werkzeug>=3.0.0
+  Downloading werkzeug-3.0.4-py3-none-any.whl (227 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 227.6/227.6 KB 1.7 MB/s eta 0:00:00
+Collecting itsdangerous>=2.1.2
+  Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Collecting blinker>=1.6.2
+  Downloading blinker-1.8.2-py3-none-any.whl (9.5 kB)
+Collecting click>=8.1.3
+  Using cached click-8.1.7-py3-none-any.whl (97 kB)
+Collecting importlib-metadata>=3.6.0
+  Downloading importlib_metadata-8.4.0-py3-none-any.whl (26 kB)
+Collecting Jinja2>=3.1.2
+  Downloading jinja2-3.1.4-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.3/133.3 KB 4.0 MB/s eta 0:00:00
+Collecting more-itertools>=8.5.0
+  Downloading more_itertools-10.4.0-py3-none-any.whl (60 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.9/60.9 KB ? eta 0:00:00
+Collecting typeguard>=4.0.1
+  Downloading typeguard-4.3.0-py3-none-any.whl (35 kB)
+Collecting msgpack>=1.0
+  Downloading msgpack-1.0.8-cp39-cp39-win_amd64.whl (75 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 75.1/75.1 KB 4.1 MB/s eta 0:00:00
+Collecting typing-extensions>=4.1.1
+  Downloading typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Collecting joblib>=0.14
+  Downloading joblib-1.4.2-py3-none-any.whl (301 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 301.8/301.8 KB 3.7 MB/s eta 0:00:00
+Collecting librosa>=0.10.0
+  Downloading librosa-0.10.2-py3-none-any.whl (260 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 260.0/260.0 KB 3.2 MB/s eta 0:00:00
+  Downloading librosa-0.10.1-py3-none-any.whl (253 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 253.7/253.7 KB 2.2 MB/s eta 0:00:00
+Collecting pooch>=1.0
+  Downloading pooch-1.8.2-py3-none-any.whl (64 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.6/64.6 KB 1.8 MB/s eta 0:00:00
+Collecting librosa>=0.10.0
+  Downloading librosa-0.10.0.post2-py3-none-any.whl (253 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 253.0/253.0 KB 2.6 MB/s eta 0:00:00
+  Downloading librosa-0.10.0.post1-py3-none-any.whl (252 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 253.0/253.0 KB 2.2 MB/s eta 0:00:00
+  Downloading librosa-0.10.0-py3-none-any.whl (252 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 252.9/252.9 KB 2.2 MB/s eta 0:00:00
+Collecting decorator>=4.3.0
+  Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting soxr>=0.3.2
+  Downloading soxr-0.5.0.post1-cp39-cp39-win_amd64.whl (167 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 167.3/167.3 KB 2.5 MB/s eta 0:00:00
+Collecting lazy-loader>=0.1
+  Downloading lazy_loader-0.4-py3-none-any.whl (12 kB)
+Collecting audioread>=2.1.9
+  Downloading audioread-3.0.1-py3-none-any.whl (23 kB)
+Collecting cycler>=0.10
+  Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Collecting matplotlib>=3.7.0
+  Downloading matplotlib-3.9.1.post1-cp39-cp39-win_amd64.whl (8.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.0/8.0 MB 2.5 MB/s eta 0:00:00
+  Downloading matplotlib-3.9.0-cp39-cp39-win_amd64.whl (7.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.9/7.9 MB 2.7 MB/s eta 0:00:00
+  Downloading matplotlib-3.8.4-cp39-cp39-win_amd64.whl (7.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.7/7.7 MB 3.2 MB/s eta 0:00:00
+Collecting python-dateutil>=2.7
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 KB 2.8 MB/s eta 0:00:00
+Collecting contourpy>=1.0.1
+  Downloading contourpy-1.3.0-cp39-cp39-win_amd64.whl (211 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 211.8/211.8 KB 4.3 MB/s eta 0:00:00
+Collecting pyparsing>=2.3.1
+  Downloading pyparsing-3.1.4-py3-none-any.whl (104 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 104.1/104.1 KB 3.0 MB/s eta 0:00:00
+Collecting fonttools>=4.22.0
+  Downloading fonttools-4.53.1-cp39-cp39-win_amd64.whl (2.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 2.9 MB/s eta 0:00:00
+Collecting kiwisolver>=1.3.1
+  Downloading kiwisolver-1.4.5-cp39-cp39-win_amd64.whl (56 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.2/56.2 KB 3.1 MB/s eta 0:00:00
+Collecting pillow>=8
+  Downloading pillow-10.4.0-cp39-cp39-win_amd64.whl (2.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 3.5 MB/s eta 0:00:00
+Collecting importlib-resources>=3.2.0
+  Downloading importlib_resources-6.4.4-py3-none-any.whl (35 kB)
+Collecting docopt>=0.6.2
+  Downloading docopt-0.6.2.tar.gz (25 kB)
+  Preparing metadata (setup.py) ... done
+Collecting llvmlite<0.44,>=0.43.0dev0
+  Downloading llvmlite-0.43.0-cp39-cp39-win_amd64.whl (28.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 28.1/28.1 MB 3.0 MB/s eta 0:00:00
+Collecting pytz>=2020.1
+  Downloading pytz-2024.1-py2.py3-none-any.whl (505 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 505.5/505.5 KB 3.2 MB/s eta 0:00:00
+Collecting threadpoolctl>=3.1.0
+  Downloading threadpoolctl-3.5.0-py3-none-any.whl (18 kB)
+Collecting scipy>=1.11.2
+  Downloading scipy-1.13.0-cp39-cp39-win_amd64.whl (46.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.2/46.2 MB 3.7 MB/s eta 0:00:00
+  Downloading scipy-1.12.0-cp39-cp39-win_amd64.whl (46.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.2/46.2 MB 3.5 MB/s eta 0:00:00
+  Downloading scipy-1.11.4-cp39-cp39-win_amd64.whl (44.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.3/44.3 MB 3.4 MB/s eta 0:00:00
+Collecting cffi>=1.0
+  Downloading cffi-1.17.0-cp39-cp39-win_amd64.whl (180 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 180.8/180.8 KB 3.6 MB/s eta 0:00:00
+Collecting langcodes<4.0.0,>=3.2.0
+  Downloading langcodes-3.4.0-py3-none-any.whl (182 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 182.0/182.0 KB 3.7 MB/s eta 0:00:00
+Collecting spacy-legacy<3.1.0,>=3.0.11
+  Downloading spacy_legacy-3.0.12-py2.py3-none-any.whl (29 kB)
+Collecting murmurhash<1.1.0,>=0.28.0
+  Downloading murmurhash-1.0.10-cp39-cp39-win_amd64.whl (25 kB)
+Collecting srsly<3.0.0,>=2.4.3
+  Downloading srsly-2.4.8-cp39-cp39-win_amd64.whl (483 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 483.8/483.8 KB 6.0 MB/s eta 0:00:00
+Collecting requests<3.0.0,>=2.13.0
+  Downloading requests-2.32.3-py3-none-any.whl (64 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.9/64.9 KB 3.6 MB/s eta 0:00:00
+Collecting wasabi<1.2.0,>=0.9.1
+  Downloading wasabi-1.1.3-py3-none-any.whl (27 kB)
+Collecting catalogue<2.1.0,>=2.0.6
+  Downloading catalogue-2.0.10-py3-none-any.whl (17 kB)
+Collecting weasel<0.5.0,>=0.1.0
+  Downloading weasel-0.4.1-py3-none-any.whl (50 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.3/50.3 KB 1.3 MB/s eta 0:00:00
+Requirement already satisfied: setuptools in d:\mozilla-tts\venv\lib\site-packages (from spacy[ja]>=3->tts) (58.1.0)
+Collecting spacy-loggers<2.0.0,>=1.0.0
+  Downloading spacy_loggers-1.0.5-py3-none-any.whl (22 kB)
+Collecting thinc<8.3.0,>=8.2.2
+  Downloading thinc-8.2.5-cp39-cp39-win_amd64.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 3.6 MB/s eta 0:00:00
+Collecting pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4
+  Downloading pydantic-2.8.2-py3-none-any.whl (423 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 423.9/423.9 KB 5.2 MB/s eta 0:00:00
+Collecting cymem<2.1.0,>=2.0.2
+  Downloading cymem-2.0.8-cp39-cp39-win_amd64.whl (39 kB)
+Collecting preshed<3.1.0,>=3.0.2
+  Downloading preshed-3.0.9-cp39-cp39-win_amd64.whl (122 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 122.7/122.7 KB 1.8 MB/s eta 0:00:00
+Collecting typer<1.0.0,>=0.3.0
+  Downloading typer-0.12.5-py3-none-any.whl (47 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.3/47.3 KB 2.5 MB/s eta 0:00:00
+Collecting sudachidict-core>=20211220
+  Downloading SudachiDict_core-20240716-py3-none-any.whl (72.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 72.0/72.0 MB 3.7 MB/s eta 0:00:00
+Collecting sudachipy!=0.6.1,>=0.5.2
+  Downloading SudachiPy-0.6.8-cp39-cp39-win_amd64.whl (1.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 3.8 MB/s eta 0:00:00
+Collecting filelock
+  Downloading filelock-3.15.4-py3-none-any.whl (16 kB)
+Collecting sympy
+  Downloading sympy-1.13.2-py3-none-any.whl (6.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.2/6.2 MB 4.3 MB/s eta 0:00:00
+Collecting colorama
+  Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting tensorboard
+  Downloading tensorboard-2.17.1-py3-none-any.whl (5.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 3.8 MB/s eta 0:00:00
+Collecting psutil
+  Downloading psutil-6.0.0-cp37-abi3-win_amd64.whl (257 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 257.4/257.4 KB 5.3 MB/s eta 0:00:00
+Collecting regex!=2019.12.17
+  Downloading regex-2024.7.24-cp39-cp39-win_amd64.whl (269 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 269.7/269.7 KB 4.2 MB/s eta 0:00:00
+Collecting huggingface-hub<1.0,>=0.23.2
+  Downloading huggingface_hub-0.24.6-py3-none-any.whl (417 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 417.5/417.5 KB 3.7 MB/s eta 0:00:00
+Collecting tokenizers<0.20,>=0.19
+  Downloading tokenizers-0.19.1-cp39-none-win_amd64.whl (2.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 3.5 MB/s eta 0:00:00
+Collecting safetensors>=0.4.1
+  Downloading safetensors-0.4.4-cp39-none-win_amd64.whl (286 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 286.1/286.1 KB 6.0 MB/s eta 0:00:00
+Collecting pynndescent>=0.5
+  Downloading pynndescent-0.5.13-py3-none-any.whl (56 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.9/56.9 KB ? eta 0:00:00
+Collecting pycparser
+  Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.6/117.6 KB 1.4 MB/s eta 0:00:00
+Collecting contourpy>=1.0.1
+  Downloading contourpy-1.2.1-cp39-cp39-win_amd64.whl (182 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 182.8/182.8 KB 2.7 MB/s eta 0:00:00
+Collecting tzlocal
+  Downloading tzlocal-5.2-py3-none-any.whl (17 kB)
+Collecting zipp>=0.5
+  Downloading zipp-3.20.1-py3-none-any.whl (9.0 kB)
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.1.5-cp39-cp39-win_amd64.whl (17 kB)
+Collecting six
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting language-data>=1.2
+  Downloading language_data-1.2.0-py3-none-any.whl (5.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 3.1 MB/s eta 0:00:00
+Collecting platformdirs>=2.5.0
+  Downloading platformdirs-4.2.2-py3-none-any.whl (18 kB)
+Collecting annotated-types>=0.4.0
+  Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Collecting pydantic-core==2.20.1
+  Downloading pydantic_core-2.20.1-cp39-none-win_amd64.whl (1.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 3.7 MB/s eta 0:00:00
+Collecting certifi>=2017.4.17
+  Downloading certifi-2024.8.30-py3-none-any.whl (167 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 167.3/167.3 KB 1.7 MB/s eta 0:00:00
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.3.2-cp39-cp39-win_amd64.whl (100 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.4/100.4 KB 6.0 MB/s eta 0:00:00
+Collecting idna<4,>=2.5
+  Downloading idna-3.8-py3-none-any.whl (66 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.9/66.9 KB 3.5 MB/s eta 0:00:00
+Collecting urllib3<3,>=1.21.1
+  Downloading urllib3-2.2.2-py3-none-any.whl (121 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121.4/121.4 KB 3.6 MB/s eta 0:00:00
+Collecting blis<0.8.0,>=0.7.8
+  Downloading blis-0.7.11-cp39-cp39-win_amd64.whl (6.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 3.9 MB/s eta 0:00:00
+Collecting confection<1.0.0,>=0.0.1
+  Downloading confection-0.1.5-py3-none-any.whl (35 kB)
+Collecting rich>=10.11.0
+  Downloading rich-13.8.0-py3-none-any.whl (241 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 241.6/241.6 KB 4.9 MB/s eta 0:00:00
+Collecting shellingham>=1.3.0
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Collecting cloudpathlib<1.0.0,>=0.7.0
+  Downloading cloudpathlib-0.19.0-py3-none-any.whl (49 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 49.4/49.4 KB 2.6 MB/s eta 0:00:00
+Collecting smart-open<8.0.0,>=5.2.1
+  Downloading smart_open-7.0.4-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 KB 3.2 MB/s eta 0:00:00
+Collecting mpmath<1.4,>=1.1.0
+  Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 KB 5.7 MB/s eta 0:00:00
+Collecting absl-py>=0.4
+  Downloading absl_py-2.1.0-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.7/133.7 KB 4.0 MB/s eta 0:00:00
+Collecting tensorboard-data-server<0.8.0,>=0.7.0
+  Downloading tensorboard_data_server-0.7.2-py3-none-any.whl (2.4 kB)
+Collecting markdown>=2.6.8
+  Downloading Markdown-3.7-py3-none-any.whl (106 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 106.3/106.3 KB 6.4 MB/s eta 0:00:00
+Collecting grpcio>=1.48.2
+  Downloading grpcio-1.66.1-cp39-cp39-win_amd64.whl (4.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 4.1 MB/s eta 0:00:00
+Collecting protobuf!=4.24.0,>=3.19.6
+  Downloading protobuf-5.28.0-cp39-cp39-win_amd64.whl (431 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 431.6/431.6 KB 3.0 MB/s eta 0:00:00
+Collecting marisa-trie>=0.7.7
+  Downloading marisa_trie-1.2.0-cp39-cp39-win_amd64.whl (152 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 152.5/152.5 KB 4.6 MB/s eta 0:00:00
+Collecting markdown-it-py>=2.2.0
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 KB 4.8 MB/s eta 0:00:00
+Collecting pygments<3.0.0,>=2.13.0
+  Downloading pygments-2.18.0-py3-none-any.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 3.5 MB/s eta 0:00:00
+Collecting wrapt
+  Downloading wrapt-1.16.0-cp39-cp39-win_amd64.whl (37 kB)
+Collecting tzdata
+  Downloading tzdata-2024.1-py2.py3-none-any.whl (345 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 345.4/345.4 KB 3.0 MB/s eta 0:00:00
+Collecting mdurl~=0.1
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Using legacy 'setup.py install' for encodec, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for bnnumerizer, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for jieba, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for docopt, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for gruut-ipa, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for gruut_lang_de, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for gruut_lang_en, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for gruut_lang_es, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for gruut_lang_fr, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for gruut, since package 'wheel' is not installed.
+Building wheels for collected packages: tts
+  Building wheel for tts (pyproject.toml) ... done
+  Created wheel for tts: filename=TTS-0.22.0-cp39-cp39-win_amd64.whl size=904044 sha256=95dcdcdce1ed0f76222fe2cbb140a53a4030039d23ee24f31734fa156fb17090
+  Stored in directory: c:\users\user\appdata\local\pip\cache\wheels\e9\94\e7\52e526c3ef9c07ac0b67a7dce87f81b6fb83ffd2d1754224e3
+Successfully built tts
+Installing collected packages: sudachipy, pytz, python-crfsuite, mpmath, jieba, jamo, hangul-romanize, gruut_lang_fr, gruut_lang_es, gruut_lang_en, gruut_lang_de, docopt, cymem, bnunicodenormalizer, bnnumerizer, bangla, zipp, wrapt, urllib3, unidecode, tzdata, typing-extensions, threadpoolctl, tensorboard-data-server, sympy, sudachidict-core, spacy-loggers, spacy-legacy, six, shellingham, safetensors, regex, pyyaml, pysbd, pypinyin, pyparsing, pygments, pycparser, psutil, protobuf, platformdirs, pillow, packaging, numpy, num2words, networkx, murmurhash, multidict, msgpack, more-itertools, mdurl, MarkupSafe, marisa-trie, llvmlite, kiwisolver, joblib, itsdangerous, idna, gruut-ipa, grpcio, fsspec, frozenlist, fonttools, filelock, einops, decorator, cython, cycler, coqpit, colorama, charset-normalizer, certifi, catalogue, blinker, Babel, audioread, attrs, async-timeout, anyascii, annotated-types, aiohappyeyeballs, absl-py, yarl, Werkzeug, wasabi, tzlocal, tqdm, srsly, soxr, smart-open, scipy, requests, python-dateutil, pydantic-core, preshed, numba, markdown-it-py, lazy-loader, language-data, jsonlines, Jinja2, importlib-resources, importlib-metadata, contourpy, cloudpathlib, click, cffi, blis, aiosignal, typeguard, torch, soundfile, scikit-learn, rich, pydantic, pooch, pandas, nltk, matplotlib, markdown, langcodes, huggingface-hub, flask, dateparser, aiohttp, typer, torchaudio, tokenizers, tensorboard, pynndescent, librosa, inflect, gruut, g2pkk, confection, weasel, umap-learn, transformers, trainer, thinc, encodec, spacy, tts
+  Running setup.py install for jieba ... done
+  Running setup.py install for gruut_lang_fr ... done
+  Running setup.py install for gruut_lang_es ... done
+  Running setup.py install for gruut_lang_en ... done
+  Running setup.py install for gruut_lang_de ... done
+  Running setup.py install for docopt ... done
+  Running setup.py install for bnnumerizer ... done
+  Running setup.py install for gruut-ipa ... done
+  Running setup.py install for gruut ... done
+  Running setup.py install for encodec ... done
+Successfully installed Babel-2.16.0 Jinja2-3.1.4 MarkupSafe-2.1.5 Werkzeug-3.0.4 absl-py-2.1.0 aiohappyeyeballs-2.4.0 aiohttp-3.10.5 aiosignal-1.3.1 annotated-types-0.7.0 anyascii-0.3.2 async-timeout-4.0.3 attrs-24.2.0 audioread-3.0.1 bangla-0.0.2 blinker-1.8.2 blis-0.7.11 bnnumerizer-0.0.2 bnunicodenormalizer-0.1.7 catalogue-2.0.10 certifi-2024.8.30 cffi-1.17.0 charset-normalizer-3.3.2 click-8.1.7 cloudpathlib-0.19.0 colorama-0.4.6 confection-0.1.5 contourpy-1.2.1 coqpit-0.0.17 cycler-0.12.1 cymem-2.0.8 cython-3.0.11 dateparser-1.1.8 decorator-5.1.1 docopt-0.6.2 einops-0.8.0 encodec-0.1.1 filelock-3.15.4 flask-3.0.3 fonttools-4.53.1 frozenlist-1.4.1 fsspec-2024.6.1 g2pkk-0.1.2 grpcio-1.66.1 gruut-2.2.3 gruut-ipa-0.13.0 gruut_lang_de-2.0.1 gruut_lang_en-2.0.1 gruut_lang_es-2.0.1 gruut_lang_fr-2.0.2 hangul-romanize-0.1.0 huggingface-hub-0.24.6 idna-3.8 importlib-metadata-8.4.0 importlib-resources-6.4.4 inflect-7.3.1 itsdangerous-2.2.0 jamo-0.4.1 jieba-0.42.1 joblib-1.4.2 jsonlines-1.2.0 kiwisolver-1.4.5 langcodes-3.4.0 language-data-1.2.0 lazy-loader-0.4 librosa-0.10.0 llvmlite-0.43.0 marisa-trie-1.2.0 markdown-3.7 markdown-it-py-3.0.0 matplotlib-3.8.4 mdurl-0.1.2 more-itertools-10.4.0 mpmath-1.3.0 msgpack-1.0.8 multidict-6.0.5 murmurhash-1.0.10 networkx-2.8.8 nltk-3.9.1 num2words-0.5.13 numba-0.60.0 numpy-1.22.0 packaging-24.1 pandas-1.5.3 pillow-10.4.0 platformdirs-4.2.2 pooch-1.8.2 preshed-3.0.9 protobuf-5.28.0 psutil-6.0.0 pycparser-2.22 pydantic-2.8.2 pydantic-core-2.20.1 pygments-2.18.0 pynndescent-0.5.13 pyparsing-3.1.4 pypinyin-0.52.0 pysbd-0.3.4 python-crfsuite-0.9.10 python-dateutil-2.9.0.post0 pytz-2024.1 pyyaml-6.0.2 regex-2024.7.24 requests-2.32.3 rich-13.8.0 safetensors-0.4.4 scikit-learn-1.5.1 scipy-1.11.4 shellingham-1.5.4 six-1.16.0 smart-open-7.0.4 soundfile-0.12.1 soxr-0.5.0.post1 spacy-3.7.6 spacy-legacy-3.0.12 spacy-loggers-1.0.5 srsly-2.4.8 sudachidict-core-20240716 sudachipy-0.6.8 sympy-1.13.2 tensorboard-2.17.1 tensorboard-data-server-0.7.2 thinc-8.2.5 threadpoolctl-3.5.0 tokenizers-0.19.1 torch-2.4.0 torchaudio-2.4.0 tqdm-4.66.5 trainer-0.0.36 transformers-4.44.2 tts-0.22.0 typeguard-4.3.0 typer-0.12.5 typing-extensions-4.12.2 tzdata-2024.1 tzlocal-5.2 umap-learn-0.5.6 unidecode-1.3.8 urllib3-2.2.2 wasabi-1.1.3 weasel-0.4.1 wrapt-1.16.0 yarl-1.9.6 zipp-3.20.1
+WARNING: You are using pip version 22.0.4; however, version 24.2 is available.
+You should consider upgrading via the 'D:\mozilla-tts\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+
+(venv) D:\mozilla-tts>python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in d:\mozilla-tts\venv\lib\site-packages (22.0.4)
+Collecting pip
+  Downloading pip-24.2-py3-none-any.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 2.5 MB/s eta 0:00:00
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 22.0.4
+    Uninstalling pip-22.0.4:
+      Successfully uninstalled pip-22.0.4
+Successfully installed pip-24.2
+
+(venv) D:\mozilla-tts>tts --list_models
+
+ Name format: type/language/dataset/model
+ 1: tts_models/multilingual/multi-dataset/xtts_v2
+ 2: tts_models/multilingual/multi-dataset/xtts_v1.1
+ 3: tts_models/multilingual/multi-dataset/your_tts
+ 4: tts_models/multilingual/multi-dataset/bark
+ 5: tts_models/bg/cv/vits
+ 6: tts_models/cs/cv/vits
+ 7: tts_models/da/cv/vits
+ 8: tts_models/et/cv/vits
+ 9: tts_models/ga/cv/vits
+ 10: tts_models/en/ek1/tacotron2
+ 11: tts_models/en/ljspeech/tacotron2-DDC
+ 12: tts_models/en/ljspeech/tacotron2-DDC_ph
+ 13: tts_models/en/ljspeech/glow-tts
+ 14: tts_models/en/ljspeech/speedy-speech
+ 15: tts_models/en/ljspeech/tacotron2-DCA
+ 16: tts_models/en/ljspeech/vits
+ 17: tts_models/en/ljspeech/vits--neon
+ 18: tts_models/en/ljspeech/fast_pitch
+ 19: tts_models/en/ljspeech/overflow
+ 20: tts_models/en/ljspeech/neural_hmm
+ 21: tts_models/en/vctk/vits
+ 22: tts_models/en/vctk/fast_pitch
+ 23: tts_models/en/sam/tacotron-DDC
+ 24: tts_models/en/blizzard2013/capacitron-t2-c50
+ 25: tts_models/en/blizzard2013/capacitron-t2-c150_v2
+ 26: tts_models/en/multi-dataset/tortoise-v2
+ 27: tts_models/en/jenny/jenny
+ 28: tts_models/es/mai/tacotron2-DDC
+ 29: tts_models/es/css10/vits
+ 30: tts_models/fr/mai/tacotron2-DDC
+ 31: tts_models/fr/css10/vits
+ 32: tts_models/uk/mai/glow-tts
+ 33: tts_models/uk/mai/vits
+ 34: tts_models/zh-CN/baker/tacotron2-DDC-GST
+ 35: tts_models/nl/mai/tacotron2-DDC
+ 36: tts_models/nl/css10/vits
+ 37: tts_models/de/thorsten/tacotron2-DCA
+ 38: tts_models/de/thorsten/vits
+ 39: tts_models/de/thorsten/tacotron2-DDC
+ 40: tts_models/de/css10/vits-neon
+ 41: tts_models/ja/kokoro/tacotron2-DDC
+ 42: tts_models/tr/common-voice/glow-tts
+ 43: tts_models/it/mai_female/glow-tts
+ 44: tts_models/it/mai_female/vits
+ 45: tts_models/it/mai_male/glow-tts
+ 46: tts_models/it/mai_male/vits
+ 47: tts_models/ewe/openbible/vits
+ 48: tts_models/hau/openbible/vits
+ 49: tts_models/lin/openbible/vits
+ 50: tts_models/tw_akuapem/openbible/vits
+ 51: tts_models/tw_asante/openbible/vits
+ 52: tts_models/yor/openbible/vits
+ 53: tts_models/hu/css10/vits
+ 54: tts_models/el/cv/vits
+ 55: tts_models/fi/css10/vits
+ 56: tts_models/hr/cv/vits
+ 57: tts_models/lt/cv/vits
+ 58: tts_models/lv/cv/vits
+ 59: tts_models/mt/cv/vits
+ 60: tts_models/pl/mai_female/vits
+ 61: tts_models/pt/cv/vits
+ 62: tts_models/ro/cv/vits
+ 63: tts_models/sk/cv/vits
+ 64: tts_models/sl/cv/vits
+ 65: tts_models/sv/cv/vits
+ 66: tts_models/ca/custom/vits
+ 67: tts_models/fa/custom/glow-tts
+ 68: tts_models/bn/custom/vits-male
+ 69: tts_models/bn/custom/vits-female
+ 70: tts_models/be/common-voice/glow-tts
+
+...
+
+
+(venv) D:\mozilla-tts>python test2.py
+ > tts_models/zh-CN/baker/tacotron2-DDC-GST is already downloaded.
+ > Using model: tacotron2
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log10
+ | > min_level_db:-100
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:0
+ | > fft_size:1024
+ | > power:1.5
+ | > preemphasis:0.0
+ | > griffin_lim_iters:60
+ | > signal_norm:True
+ | > symmetric_norm:True
+ | > mel_fmin:50.0
+ | > mel_fmax:7600.0
+ | > pitch_fmin:0.0
+ | > pitch_fmax:640.0
+ | > spec_gain:1.0
+ | > stft_pad_mode:reflect
+ | > max_norm:4.0
+ | > clip_norm:True
+ | > do_trim_silence:True
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:C:\Users\user\AppData\Local\tts\tts_models--zh-CN--baker--tacotron2-DDC-GST\scale_stats.npy
+ | > base:10
+ | > hop_length:256
+ | > win_length:1024
+D:\mozilla-tts\venv\lib\site-packages\TTS\utils\io.py:54: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  return torch.load(f, map_location=map_location, **kwargs)
+ > Model's reduction rate `r` is set to: 2
+ > Text splitted to sentences.
+['你知道什麼東西在冰箱裡很害怕嗎？', '是番茄！', '因為它們看到冰箱裡有番茄醬，怕自己也會變成那樣！']
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\user\AppData\Local\Temp\jieba.cache
+Loading model cost 0.596 seconds.
+Prefix dict has been built successfully.
+ > Processing time: 6.631380796432495
+ > Real-time factor: 0.6317046837688209
+
+(venv) D:\mozilla-tts>python test1.py
+ > tts_models/en/ljspeech/tacotron2-DDC_ph is already downloaded.
+ > vocoder_models/en/ljspeech/univnet is already downloaded.
+ > Using model: Tacotron2
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log10
+ | > min_level_db:-100
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:20
+ | > fft_size:1024
+ | > power:1.5
+ | > preemphasis:0.0
+ | > griffin_lim_iters:60
+ | > signal_norm:True
+ | > symmetric_norm:True
+ | > mel_fmin:50.0
+ | > mel_fmax:7600.0
+ | > pitch_fmin:0.0
+ | > pitch_fmax:640.0
+ | > spec_gain:1.0
+ | > stft_pad_mode:reflect
+ | > max_norm:4.0
+ | > clip_norm:True
+ | > do_trim_silence:True
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:C:\Users\user\AppData\Local\tts\tts_models--en--ljspeech--tacotron2-DDC_ph\scale_stats.npy
+ | > base:10
+ | > hop_length:256
+ | > win_length:1024
+D:\mozilla-tts\venv\lib\site-packages\TTS\utils\io.py:54: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  return torch.load(f, map_location=map_location, **kwargs)
+ > Model's reduction rate `r` is set to: 2
+ > Vocoder Model: univnet
+ > Setting up Audio Processor...
+ | > sample_rate:22050
+ | > resample:False
+ | > num_mels:80
+ | > log_func:np.log10
+ | > min_level_db:-100
+ | > frame_shift_ms:None
+ | > frame_length_ms:None
+ | > ref_level_db:20
+ | > fft_size:1024
+ | > power:1.5
+ | > preemphasis:0.0
+ | > griffin_lim_iters:60
+ | > signal_norm:True
+ | > symmetric_norm:True
+ | > mel_fmin:50.0
+ | > mel_fmax:7600.0
+ | > pitch_fmin:1.0
+ | > pitch_fmax:640.0
+ | > spec_gain:1.0
+ | > stft_pad_mode:reflect
+ | > max_norm:4.0
+ | > clip_norm:True
+ | > do_trim_silence:True
+ | > trim_db:60
+ | > do_sound_norm:False
+ | > do_amp_to_db_linear:True
+ | > do_amp_to_db_mel:True
+ | > do_rms_norm:False
+ | > db_level:None
+ | > stats_path:C:\Users\user\AppData\Local\tts\vocoder_models--en--ljspeech--univnet\scale_stats.npy
+ | > base:10
+ | > hop_length:256
+ | > win_length:1024
+ > Generator Model: univnet_generator
+ > Discriminator Model: univnet_discriminator
+ > Text splitted to sentences.
+['Do you know what gets really scared in the fridge?', "It's the tomatoes!", 'Because they see ketchup in there and are afraid they might end up the same way!']
+du ju noʊ wʌt ɡɛts ɹɪli skɛɹd ɪn ðə fɹɪd͡ʒ?
+ [!] Character '͡' not found in the vocabulary. Discarding it.
+ > Processing time: 4.618735313415527
+ > Real-time factor: 0.48210214374011773
